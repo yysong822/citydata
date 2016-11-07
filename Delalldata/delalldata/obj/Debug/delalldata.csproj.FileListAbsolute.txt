@@ -1,0 +1,5 @@
+D:\my project\delalldata\delalldata\obj\Debug\ResolveAssemblyReference.cache
+D:\my project\delalldata\delalldata\bin\Debug\delalldata.exe
+D:\my project\delalldata\delalldata\bin\Debug\delalldata.pdb
+D:\my project\delalldata\delalldata\obj\Debug\delalldata.exe
+D:\my project\delalldata\delalldata\obj\Debug\delalldata.pdb

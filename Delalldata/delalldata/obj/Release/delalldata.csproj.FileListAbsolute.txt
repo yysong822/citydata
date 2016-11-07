@@ -1,0 +1,7 @@
+D:\my project\delalldata\delalldata\bin\Release\delalldata.exe
+D:\my project\delalldata\delalldata\bin\Release\delalldata.pdb
+D:\my project\delalldata\delalldata\obj\Release\ResolveAssemblyReference.cache
+D:\my project\delalldata\delalldata\obj\Release\delalldata.exe
+D:\my project\delalldata\delalldata\obj\Release\delalldata.pdb
+D:\workspace\AllCityData\AllCityData\Delalldata\delalldata\obj\Release\delalldata.exe
+D:\workspace\AllCityData\AllCityData\Delalldata\delalldata\obj\Release\delalldata.pdb

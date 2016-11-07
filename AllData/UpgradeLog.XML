@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="AllData">
+</Property><Property Name="Solution File" Value="E:\技术部开发程序备份\城市预报\AllData\AllData.sln">
+</Property><Property Name="User Options File" Value="E:\技术部开发程序备份\城市预报\AllData\AllData.suo">
+</Property><Property Name="Date" Value="2014年7月17日">
+</Property><Property Name="Time" Value="15:34">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="AllData.sln" Description="File successfully backed up as E:\技术部开发程序备份\城市预报\AllData\Backup\AllData.sln">
+</Event><Event ErrorLevel="0" Project="" Source="AllData.suo" Description="File successfully backed up as E:\技术部开发程序备份\城市预报\AllData\Backup\AllData.suo">
+</Event><Event ErrorLevel="0" Project="Model" Source="Model\Model.csproj" Description="Project file successfully backed up as E:\技术部开发程序备份\城市预报\AllData\Backup\Model\Model.csproj">
+</Event><Event ErrorLevel="0" Project="Model" Source="Model\Model.csproj.user" Description="Project user file successfully backed up as E:\技术部开发程序备份\城市预报\AllData\Backup\Model\Model.csproj.user">
+</Event><Event ErrorLevel="0" Project="Model" Source="Model\Admin.cs" Description="File successfully backed up as E:\技术部开发程序备份\城市预报\AllData\Backup\Model\Admin.cs">
+</Event><Event ErrorLevel="0" Project="Model" Source="Model\ChannelProgram.cs" Description="File successfully backed up as E:\技术部开发程序备份\城市预报\AllData\Backup\Model\ChannelProgram.cs">
+</Event><Event ErrorLevel="0" Project="Model" Source="Model\ChannelProgramUser.cs" Description="File successfully backed up as E:\技术部开发程序备份\城市预报\AllData\Backup\Model\ChannelProgramUser.cs">
+</Event><Event ErrorLevel="0" Project="Model" Source="Model\ElementRelation.cs" Description="File successfully backed up as E:\技术部开发程序备份\城市预报\AllData\Backup\Model\ElementRelation.cs">
+</Event><Event ErrorLevel="0" Project="Model" Source="Model\RecordeData.cs" Description="File successfully backed up as E:\技术部开发程序备份\城市预报\AllData\Backup\Model\RecordeData.cs">
+</Event><Event ErrorLevel="0" Project="Model" Source="Model\Properties\AssemblyInfo.cs" Description="File successfully backed up as E:\技术部开发程序备份\城市预报\AllData\Backup\Model\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Model" Source="Model\RecordeData2.cs" Description="File successfully backed up as E:\技术部开发程序备份\城市预报\AllData\Backup\Model\RecordeData2.cs">
+</Event><Event ErrorLevel="0" Project="Model" Source="Model\StationRelation.cs" Description="File successfully backed up as E:\技术部开发程序备份\城市预报\AllData\Backup\Model\StationRelation.cs">
+</Event><Event ErrorLevel="0" Project="Model" Source="Model\User.cs" Description="File successfully backed up as E:\技术部开发程序备份\城市预报\AllData\Backup\Model\User.cs">
+</Event><Event ErrorLevel="1" Project="Model" Source="Model\Model.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="Model" Source="Model\Model.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Model" Source="Model\Model.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="DAL" Source="DAL\DAL.csproj" Description="Project file successfully backed up as E:\技术部开发程序备份\城市预报\AllData\Backup\DAL\DAL.csproj">
+</Event><Event ErrorLevel="0" Project="DAL" Source="DAL\DAL.csproj.user" Description="Project user file successfully backed up as E:\技术部开发程序备份\城市预报\AllData\Backup\DAL\DAL.csproj.user">
+</Event><Event ErrorLevel="0" Project="DAL" Source="DAL\DataDAL.cs" Description="File successfully backed up as E:\技术部开发程序备份\城市预报\AllData\Backup\DAL\DataDAL.cs">
+</Event><Event ErrorLevel="0" Project="DAL" Source="DAL\Properties\AssemblyInfo.cs" Description="File successfully backed up as E:\技术部开发程序备份\城市预报\AllData\Backup\DAL\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="DAL" Source="DAL\SettingDAL.cs" Description="File successfully backed up as E:\技术部开发程序备份\城市预报\AllData\Backup\DAL\SettingDAL.cs">
+</Event><Event ErrorLevel="0" Project="DAL" Source="DAL\SqlHelper.cs" Description="File successfully backed up as E:\技术部开发程序备份\城市预报\AllData\Backup\DAL\SqlHelper.cs">
+</Event><Event ErrorLevel="1" Project="DAL" Source="DAL\DAL.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="DAL" Source="DAL\DAL.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="DAL" Source="DAL\DAL.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="BLL" Source="BLL\BLL.csproj" Description="Project file successfully backed up as E:\技术部开发程序备份\城市预报\AllData\Backup\BLL\BLL.csproj">
+</Event><Event ErrorLevel="0" Project="BLL" Source="BLL\BLL.csproj.user" Description="Project user file successfully backed up as E:\技术部开发程序备份\城市预报\AllData\Backup\BLL\BLL.csproj.user">
+</Event><Event ErrorLevel="0" Project="BLL" Source="BLL\DataBLL.cs" Description="File successfully backed up as E:\技术部开发程序备份\城市预报\AllData\Backup\BLL\DataBLL.cs">
+</Event><Event ErrorLevel="0" Project="BLL" Source="BLL\Properties\AssemblyInfo.cs" Description="File successfully backed up as E:\技术部开发程序备份\城市预报\AllData\Backup\BLL\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="BLL" Source="BLL\SettingBLL.cs" Description="File successfully backed up as E:\技术部开发程序备份\城市预报\AllData\Backup\BLL\SettingBLL.cs">
+</Event><Event ErrorLevel="1" Project="BLL" Source="BLL\BLL.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="BLL" Source="BLL\BLL.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="BLL" Source="BLL\BLL.csproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="" Source="..\DataWeb\" Description="Warning: The project file is being backed up to a relative path that differs from the original solution relative path.  The difference in folder hierarchy may create problems in opening or building the backed up solution and project.">
+</Event><Event ErrorLevel="0" Project="" Source="AllData.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="AllData.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Model" Source="Model\Model.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="DAL" Source="DAL\DAL.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="BLL" Source="BLL\BLL.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

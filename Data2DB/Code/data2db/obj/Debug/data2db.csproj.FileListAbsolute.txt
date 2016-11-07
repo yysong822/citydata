@@ -1,0 +1,14 @@
+D:\my project\data2db\data2db\bin\Debug\data2db.exe
+D:\my project\data2db\data2db\bin\Debug\data2db.pdb
+D:\my project\data2db\data2db\obj\Debug\ResolveAssemblyReference.cache
+D:\my project\data2db\data2db\obj\Debug\data2db.exe
+D:\my project\data2db\data2db\obj\Debug\data2db.pdb
+D:\my project\data2db\data2db\bin\Debug\data2db.exe.manifest
+D:\my project\data2db\data2db\bin\Debug\data2db.application
+D:\my project\data2db\data2db\obj\Debug\data2db.exe.manifest
+D:\my project\data2db\data2db\obj\Debug\data2db.application
+D:\workspace\AllCityData\AllCityData\Data2DB\Code\data2db\bin\Debug\data2db.exe
+D:\workspace\AllCityData\AllCityData\Data2DB\Code\data2db\bin\Debug\data2db.pdb
+D:\workspace\AllCityData\AllCityData\Data2DB\Code\data2db\obj\Debug\ResolveAssemblyReference.cache
+D:\workspace\AllCityData\AllCityData\Data2DB\Code\data2db\obj\Debug\data2db.exe
+D:\workspace\AllCityData\AllCityData\Data2DB\Code\data2db\obj\Debug\data2db.pdb

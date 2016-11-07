@@ -1,0 +1,1 @@
+delalldata.exe 5

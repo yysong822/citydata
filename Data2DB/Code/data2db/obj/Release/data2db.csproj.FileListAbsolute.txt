@@ -1,0 +1,32 @@
+D:\my project\data2db\data2db\bin\Release\data2db.exe
+D:\my project\data2db\data2db\bin\Release\data2db.pdb
+D:\my project\data2db\data2db\obj\Release\ResolveAssemblyReference.cache
+D:\my project\data2db\data2db\obj\Release\data2db.exe
+D:\my project\data2db\data2db\obj\Release\data2db.pdb
+D:\my project\data2db\data2db\bin\Release\data2db.exe.manifest
+D:\my project\data2db\data2db\bin\Release\data2db.application
+D:\my project\data2db\data2db\obj\Release\data2db.exe.manifest
+D:\my project\data2db\data2db\obj\Release\data2db.application
+C:\my project\Data2DB\Code\data2db\bin\Release\data2db.exe.manifest
+C:\my project\Data2DB\Code\data2db\bin\Release\data2db.application
+C:\my project\Data2DB\Code\data2db\bin\Release\data2db.exe
+C:\my project\Data2DB\Code\data2db\bin\Release\data2db.pdb
+C:\my project\Data2DB\Code\data2db\obj\Release\ResolveAssemblyReference.cache
+C:\my project\Data2DB\Code\data2db\obj\Release\data2db.exe.manifest
+C:\my project\Data2DB\Code\data2db\obj\Release\data2db.application
+C:\my project\Data2DB\Code\data2db\obj\Release\data2db.exe
+C:\my project\Data2DB\Code\data2db\obj\Release\data2db.pdb
+D:\workspace\AllCityData\AllCityData\Data2DB\Code\data2db\bin\Release\data2db.exe
+D:\workspace\AllCityData\AllCityData\Data2DB\Code\data2db\bin\Release\data2db.pdb
+D:\workspace\AllCityData\AllCityData\Data2DB\Code\data2db\obj\Release\ResolveAssemblyReference.cache
+D:\workspace\AllCityData\AllCityData\Data2DB\Code\data2db\obj\Release\data2db.exe
+D:\workspace\AllCityData\AllCityData\Data2DB\Code\data2db\obj\Release\data2db.pdb
+D:\workspace\城市预报2\Data2DB\Code\data2db\bin\Release\data2db.exe
+D:\workspace\城市预报2\Data2DB\Code\data2db\bin\Release\data2db.pdb
+D:\workspace\城市预报2\Data2DB\Code\data2db\obj\Release\ResolveAssemblyReference.cache
+D:\workspace\城市预报2\Data2DB\Code\data2db\obj\Release\data2db.exe
+D:\workspace\城市预报2\Data2DB\Code\data2db\obj\Release\data2db.pdb
+E:\技术部开发程序备份\城市预报\Data2DB\Code\data2db\obj\Release\data2db.exe
+E:\技术部开发程序备份\城市预报\Data2DB\Code\data2db\obj\Release\data2db.pdb
+E:\技术部开发程序备份\城市预报\Data2DB\Code\data2db\bin\Release\data2db.exe
+E:\技术部开发程序备份\城市预报\Data2DB\Code\data2db\bin\Release\data2db.pdb

@@ -1,0 +1,437 @@
+﻿<%@ master language="C#" autoeventwireup="true" inherits="MasterPage, App_Web_masterpage.master.cdcab7d2" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>城市预报</title>
+    <link href="StyleSheet.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+    
+    <style type="text/css">
+        
+        a.linkwhite:link {color:#fff; text-decoration:none;}
+        a.linkwhite:visited {color:#fff; text-decoration:none;}
+        a.linkwhite:hover {color:#ff6600; text-decoration:none;}
+        a.linkwhite:active {color:#ff4400; text-decoration:none;}
+
+        table,td,select,input,div {font-size:12px;}
+        body {font-size:12px; padding:0; margin:0; height:auto;}
+        a img {border:0;}
+
+        .f_01 {
+            border-top-width: 1px;
+            border-top-style: solid;
+            border-top-color: #828282;
+	        background:url(images/m_index_47.jpg) repeat-x;
+        }
+        .f_02 {
+            border-top-width: 1px;
+            border-bottom-width: 1px;
+            border-top-style: solid;
+            border-bottom-style: solid;
+            border-top-color: #fff;
+            border-bottom-color: #CFCFCF;
+	        background:#F5F5F5;
+        }
+        .f_03 {
+            border-top-width: 1px;
+            border-top-style: solid;
+            border-top-color: #83B1D4;
+            border-bottom-color: #416784;
+            border-bottom-width: 1px;
+            border-bottom-style: solid;
+        }
+        .f_04 {
+            border-top-width: 1px;
+            border-top-style: solid;
+            border-top-color: #CFCFCF;
+            border-bottom-color: #fff;
+            border-bottom-width: 1px;
+            border-bottom-style: solid;
+        }
+        .STYLEWORD {
+            color: #000;
+            text-align:left;
+        }
+
+    </style>
+
+    <script type="text/javascript" src="js/tools.js"></script>
+    
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/jQuery.Hz2Py-min.js"></script>
+    
+</head>
+
+
+<body>
+    <form id="form1" runat="server">
+
+<div align="center">
+
+<table width="950" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td height="186" background="images/top.jpg"></td>
+    </tr>
+</table>
+
+</div>
+
+<div align="center">
+
+<table width="950" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td style="text-align: center; vertical-align: top; height: 20px;">
+            <asp:Label ID="lblLoginUser" runat="server" Text=""></asp:Label>&nbsp;
+            <asp:LinkButton ID="lbtnLoginOper" runat="server" onclick="lbtnLoginOper_Click"></asp:LinkButton>
+        </td>
+    </tr>
+    <tr>
+        <td width="150" style="padding-top: 0px; vertical-align: top; text-align: center;" align="center" valign="top" >
+        
+        <!--菜单内容开始-->
+        <table width="150" border="0" cellpadding="0" cellspacing="0" style="text-align:left;vertical-align:top">
+            <tr bgcolor="#1C3259" onmouseover="mover(this,'#5B7AB2')" onmouseout="mout(this,'#1C3259')">
+                <td class="f_01">
+                    
+                    <table width="100%" border="0" cellspacing="0" cellpadding="4">
+                        <tr>
+                            <td align="left" style="text-align: left">&nbsp;&nbsp;
+                                <img alt="" src="images/index_12.gif" width="10" height="12" />&nbsp;
+                                <a class="linkwhite" href="javascript:void(0);" onclick="expandtree('TREE_1', 'TRIMG_1');">
+                                    <font class="STYLEWORD">城市预报</font>
+                                </a>
+                                <img id="TRIMG_1" alt="" src="images/m_index_29.gif" onclick="expandtree('TREE_1', 'TRIMG_1');" />
+                            </td>
+                        </tr>
+                    </table>
+                
+                </td>
+            </tr>
+            <!-- 树二层 -->
+            <tr id="TREE_1" bgcolor="#34638D">
+                <td>
+                    <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#34638D">
+        
+                        <!-- 城市预报 -->
+                        <tr onmouseover="mover(this,'#EFEFEF')" onmouseout="mout(this,'#F5F5F5')">
+                            <td class="f_02">
+                                <table width="100%" border="0" cellpadding="4" cellspacing="0">
+                                    <tr>
+                                        <td align="left" style="text-align: left">&nbsp;&nbsp;&nbsp;&nbsp;
+                                            <img alt="" src="images/m_index_57.jpg" width="12" height="11" />&nbsp;
+                                            <a class="linkwhite" href="default.aspx" >
+                                                <font class="STYLEWORD">城市预报</font>
+                                            </a>
+                                        </td>
+                                        <td width="10" align="left">
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <!-- 城市预报 -->
+                        <tr onmouseover="mover(this,'#EFEFEF')" onmouseout="mout(this,'#F5F5F5')">
+                            <td class="f_02">
+                                <table width="100%" border="0" cellpadding="4" cellspacing="0">
+                                    <tr>
+                                        <td align="left" style="text-align: left">&nbsp;&nbsp;&nbsp;&nbsp;
+                                            <img alt="" src="images/m_index_57.jpg" width="12" height="11" />&nbsp;
+                                            <a class="linkwhite" href="default2.aspx" >
+                                                <font class="STYLEWORD">城市预报(测试)</font>
+                                            </a>
+                                        </td>
+                                        <td width="10" align="left">
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <!-- 总表数据 -->
+                        <tr onmouseover="mover(this,'#EFEFEF')" onmouseout="mout(this,'#F5F5F5')">
+                            <td class="f_02">
+                                <table width="100%" border="0" cellpadding="4" cellspacing="0">
+                                <tr>
+                                    <td align="left" style="text-align: left">&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <img alt="" src="images/m_index_57.jpg" width="12" height="11" />&nbsp;
+                                        <a class="linkwhite" href="zb.aspx" >
+                                            <font class="STYLEWORD">总表数据</font>
+                                        </a>
+                                    </td>
+                                    <td width="10" align="left">
+                                    </td>
+                                </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            
+            <!-- 管理中心 -->
+            <tr bgcolor="#1C3259" onmouseover="mover(this,'#5B7AB2')" onmouseout="mout(this,'#1C3259')">
+                <td class="f_01">
+	                
+	                <table width="100%" border="0" cellspacing="0" cellpadding="4">
+                    <tr>
+                        <td align="left" style="text-align: left">&nbsp;&nbsp;
+                            <img alt="" src="images/index_12.gif" width="10" height="12" />&nbsp;
+                            <a class="linkwhite" href="javascript:void(0);" onclick="expandtree('TREE_2', 'TRIMG_2');">
+                                <font class="STYLEWORD">管理中心</font>
+                            </a>
+                            <img id="TRIMG_2" alt="" src="images/m_index_29.gif" onclick="expandtree('TREE_2', 'TRIMG_2');" />
+                        </td>
+                    </tr>
+                    </table>
+                </td>
+            </tr>
+            <!-- 树二层 -->
+            <tr id="TREE_2"  bgcolor="#34638D">
+                <td>
+                    <table id="naviTab" runat="server" width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#34638D">
+                    <!-- 用户管理 -->
+                    <tr onmouseover="mover(this,'#EFEFEF')" onmouseout="mout(this,'#F5F5F5')">
+                        <td class="f_02">
+                            <table width="100%" border="0" cellpadding="4" cellspacing="0">
+                            <tr >
+                                <td align="left" style="text-align: left">&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <img alt="" src="images/m_index_57.jpg" width="12" height="11" />&nbsp;
+                                    <a class="linkwhite" href="user.aspx" >
+                                        <font class="STYLEWORD">用户管理</font>
+                                    </a>
+                                </td>
+                                <td width="10" align="left"></td>
+                            </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    
+                    <!-- 节目管理 -->
+                    <tr onmouseover="mover(this,'#EFEFEF')" onmouseout="mout(this,'#F5F5F5')">
+                        <td class="f_02">
+                            <table width="100%" border="0" cellpadding="4" cellspacing="0">
+                            <tr >
+                                <td align="left" style="text-align: left">&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <img alt="" src="images/m_index_57.jpg" width="12" height="11" />&nbsp;
+                                    <a class="linkwhite" href="javascript:void(0)" onclick="expandtree('<%=TREE_201.ClientID%>', 'TRIMG_201');">
+                                        <font class="STYLEWORD">节目管理</font>
+                                    </a>
+                                    <img id="TRIMG_201" alt="" src="images/m_index_29.gif" onclick="expandtree('<%=TREE_201.ClientID%>', 'TRIMG_201');" />
+                                </td>
+                                <td width="10" align="left"></td>
+                            </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <!-- 树三层 -->
+                    <tr id="TREE_201" >
+                        <td>
+                            <table width="100%" border="0" cellpadding="4" cellspacing="0">
+                            <!-- 频道管理 -->
+                            <tr>
+                                <td class="f_02">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td align="left">&nbsp;&nbsp;
+                                            <img alt="" src="images/m_index_57.jpg" width="12" height="11" />&nbsp;&nbsp;
+                                            <a class="linkwhite" href="channel.aspx">
+                                                <font class="STYLEWORD" style="text-align: left">频道管理</font>
+                                            </a>
+                                        </td>
+                                        <td width="10" align="left"></td>
+                                    </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <!-- 栏目管理 -->
+                            <tr>
+                                <td class="f_02">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td align="left">&nbsp;&nbsp;
+                                            <img alt="" src="images/m_index_57.jpg" width="12" height="11" />&nbsp;&nbsp;
+                                            <a class="linkwhite" href="program.aspx">
+                                                <font class="STYLEWORD" style="text-align: left">栏目管理</font>
+                                            </a>
+                                        </td>
+                                        <td width="10" align="left"></td>
+                                    </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <!-- 顺序配置 -->
+                            <tr>
+                                <td class="f_02">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td align="left">&nbsp;&nbsp;
+                                            <img alt="" src="images/m_index_57.jpg" width="12" height="11" />&nbsp;&nbsp;
+                                            <a class="linkwhite" href="cporder.aspx">
+                                                <font class="STYLEWORD" style="text-align: left">顺序配置</font>
+                                            </a>
+                                        </td>
+                                        <td width="10" align="left"></td>
+                                    </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <!-- 频道配置 -->
+                            <tr>
+                                <td class="f_02">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td align="left">&nbsp;&nbsp;
+                                            <img alt="" src="images/m_index_57.jpg" width="12" height="11" />&nbsp;&nbsp;
+                                            <a class="linkwhite" href="cpsetting.aspx">
+                                                <font class="STYLEWORD" style="text-align: left">频道配置</font>
+                                            </a>
+                                        </td>
+                                        <td width="10" align="left"></td>
+                                    </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    
+                    <!-- 内容管理 -->
+                    <tr onmouseover="mover(this,'#EFEFEF')" onmouseout="mout(this,'#F5F5F5')">
+                        <td class="f_02">
+                            <table width="100%" border="0" cellpadding="4" cellspacing="0">
+                            <tr >
+                                <td align="left" style="text-align: left">&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <img alt="" src="images/m_index_57.jpg" width="12" height="11" />&nbsp;
+                                    <a class="linkwhite" href="javascript:void(0)" onclick="expandtree('<%=TREE_202.ClientID%>', 'TRIMG_202');">
+                                        <font class="STYLEWORD">内容管理</font>
+                                    </a>
+                                    <img id="TRIMG_202" alt="" src="images/m_index_29.gif" onclick="expandtree('<%=TREE_202.ClientID%>', 'TRIMG_202');" />
+                                </td>
+                                <td width="10" align="left"></td>
+                            </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <!-- 树三层 -->
+                    <tr id="TREE_202" >
+                        <td>
+                            <table width="100%" border="0" cellpadding="4" cellspacing="0">
+                            <!-- 站点管理 -->
+                            <tr>
+                                <td class="f_02">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td align="left">&nbsp;&nbsp;
+                                            <img alt="" src="images/m_index_57.jpg" width="12" height="11" />&nbsp;&nbsp;
+                                            <a class="linkwhite" href="station.aspx">
+                                                <font class="STYLEWORD" style="text-align: left">站点管理</font>
+                                            </a>
+                                        </td>
+                                        <td width="10" align="left"></td>
+                                    </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <!-- 栏目配置 -->
+                            <tr>
+                                <td class="f_02">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td align="left">&nbsp;&nbsp;
+                                            <img alt="" src="images/m_index_57.jpg" width="12" height="11" />&nbsp;&nbsp;
+                                            <a class="linkwhite" href="setting2.aspx">
+                                                <font class="STYLEWORD" style="text-align: left">栏目配置</font>
+                                            </a>
+                                        </td>
+                                        <td width="10" align="left"></td>
+                                    </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    
+                    </table>
+                </td>
+            </tr>
+            
+            <!-- 关于 -->
+            <tr bgcolor="#1C3259" onmouseover="mover(this,'#5B7AB2')" onmouseout="mout(this,'#1C3259')">
+                <td class="f_01">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="4">
+                    <tr>
+                        <td align="left" style="text-align: left">&nbsp;&nbsp;
+                            <img alt="" src="images/index_12.gif" width="10" height="12" />&nbsp;
+                            <a class="linkwhite" href="javascript:void(0);" onclick="expandtree('TREE_3', 'TRIMG_3');">
+                                <font class="STYLEWORD">关于</font>
+                            </a>
+                            <img id="TRIMG_3" alt="" src="images/m_index_29.gif" onclick="expandtree('TREE_3', 'TRIMG_3');" />
+                        </td>
+                    </tr>
+                    </table>
+                </td>
+            </tr>
+            
+            <!-- 树二层 -->
+            <tr id="TREE_3"  bgcolor="#34638D">
+                <td>
+                    <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#34638D">
+                    <tr onmouseover="mover(this,'#EFEFEF')" onmouseout="mout(this,'#F5F5F5')">
+                        <td class="f_02">
+                            <table width="100%" border="0" cellpadding="4" cellspacing="0">
+                            <tr >
+                                <td align="left" style="text-align: left">&nbsp;&nbsp;&nbsp;&nbsp;
+                                <img alt="" src="images/m_index_57.jpg" width="12" height="11" />&nbsp;
+                                <a class="linkwhite" href="use.aspx" >
+                                    <font class="STYLEWORD">使用说明</font>
+                                </a>
+                                </td>
+                                <td width="10" align="left"></td>
+                            </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    </table>
+                </td>
+            </tr>
+            
+        </table>
+        <!--菜单内容结束-->
+        
+        </td>
+        <td align="left" valign="top" style="width:3px">
+        </td>
+        <td align="left" valign="top">
+            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </td>
+        
+    </tr>
+</table>
+
+<table width="934" border="0" cellspacing="0" cellpadding="0">
+<tr>
+    <td height="24" background="images/bottom_line.jpg"></td>
+</tr>
+</table>
+
+<table width="950" border="0" cellspacing="0" cellpadding="0">
+<tr>
+    <td style="width:180px"></td>
+    <td>
+        <div align="center" class="footer">制作维护：华风气象影视信息集团技术部　电话：010-58991859　Email：
+            <a href="mailto:webmaster@huafeng.cma.gov.cn">webmaster@huafeng.cma.gov.cn</a>
+        </div>
+    </td>
+</tr>
+</table>
+
+</div>
+
+    
+    </form>
+</body>
+</html>

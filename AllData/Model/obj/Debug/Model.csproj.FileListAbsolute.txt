@@ -1,0 +1,5 @@
+D:\workspace\城市预报2\AllData\Model\bin\Debug\Model.dll
+D:\workspace\城市预报2\AllData\Model\bin\Debug\Model.pdb
+D:\workspace\城市预报2\AllData\Model\obj\Debug\ResolveAssemblyReference.cache
+D:\workspace\城市预报2\AllData\Model\obj\Debug\Model.dll
+D:\workspace\城市预报2\AllData\Model\obj\Debug\Model.pdb
